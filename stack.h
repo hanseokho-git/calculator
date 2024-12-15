@@ -1,7 +1,7 @@
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h> 
-
+#define EMPTY_MACRO
 typedef int Item;
 typedef struct stack {
 Item * contents;
